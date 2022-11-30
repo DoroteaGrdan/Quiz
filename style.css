@@ -1,0 +1,166 @@
+.nav-item {
+    padding: 2rem;
+}
+
+nav {
+    background-color: #232323;
+}
+
+.jumbotron, #score {
+    background-image: url(img/question-mark-2492009_1280.jpg);
+    background-position: center;
+    background-size: cover;
+    height: calc(100vh - 142px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.jumbotronIndex {
+    background-image: url(img/pexels-ricardo-esquivel-1964471.jpg);
+    background-position: center;
+    height: calc(100vh - 142px);
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding-left: 20rem;
+    padding-right: 10rem;
+}
+
+.btn {
+    background-color: white;
+    color: #232323;
+    border-color: #232323;
+}
+
+.btn:hover {
+    background-color: #232323;
+    color: white;
+    border-color: white;
+}
+
+#score {
+    background-image: url(img/pexels-ricardo-esquivel-1964471.jpg);
+    font-family: 'Press Start 2P', cursive;
+    padding: 0;
+    height: calc(100vh - 142px);
+}
+
+#score h2 {
+    font-size: 4rem;
+    padding-bottom: 2rem;
+    text-shadow: 3px 5px 2px #474747;
+}
+
+#score p {
+    font-size: 2rem;
+    padding-bottom: 2rem;
+}
+
+.jumbotronGaming {
+    background-image: url(img/retro-4237850_1280.jpg);
+}
+
+.jumbotronGeneral {
+    background-image: url(img/pexels-tirachard-kumtanom-733852.jpg);
+}
+
+.jumbotronGeo {
+    background-image: url(img/pexels-aaditya-arora-592753.jpg);
+}
+
+.jumbotronHistory {
+    background-image: url(img/pexels-pixabay-36006.jpg);
+}
+
+.jumbotron h2{
+    padding: 40px 60px;
+    text-align: center;
+    text-shadow: 3px 5px 2px #474747;
+    font-family: 'Audiowide', cursive;
+}
+
+.questionNumber{
+    text-shadow: 3px 5px 2px #474747;
+    text-align: center;
+}
+
+.progress {
+    background-color: #232323;
+    border-radius: 0;
+}
+
+.progress-bar {
+    background-color: white;
+}
+
+.optionsWrap {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 0 40px;
+}
+
+.option {
+    width: 100%;
+    max-width: 1000px;
+    height: 80px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.option:hover {
+    background-color: #232323;
+    color: white;
+}
+
+.option p:first-child {
+    padding: 0 20px;
+}
+
+.option p {
+    margin: 0;
+    font-size: 1.35rem;
+}
+
+hr {
+    width: 70%;
+    overflow: visible; /* For IE */
+    height: 30px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px 0 0 0;
+    border-radius: 20px;
+}
+hr:before { /* Not really supposed to work, but does */
+    display: block;
+    content: "";
+    height: 30px;
+    margin-top: -31px;
+    border-style: solid;
+    border-color: black;
+    border-width: 0 0 2px 0;
+    border-radius: 20px;
+}
+
+#score {
+    display: none;
+}
+
+@media screen and (max-width: 970px) {
+    .jumbotron {
+        align-items: center;
+        padding: 0 30px;
+        text-align: center;
+    }
+}
